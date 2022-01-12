@@ -10,8 +10,8 @@ setup(
     packages=find_packages(include=['exampleproject', 'exampleproject.*']),
     install_requires=[
         'PyYAML',
-        'pandas==0.23.3',
-        'numpy>=1.14.5'
+        'networkx',
+        'seaborn'
     ],
     extras_require={'plotting': ['matplotlib>=2.2.0', 'jupyter']},
     setup_requires=['pytest-runner', 'flake8'],

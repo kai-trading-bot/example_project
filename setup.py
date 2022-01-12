@@ -4,9 +4,9 @@ setup(
     name='example',
     version='0.1.0',
     description='Setting up a python package',
-    author='Rogier van der Geer',
-    author_email='rogiervandergeer@godatadriven.com',
-    url='https://blog.godatadriven.com/setup-py',
+    author='',
+    author_email='',
+    url='',
     packages=find_packages(include=['exampleproject', 'exampleproject.*']),
     install_requires=[
         'PyYAML',
